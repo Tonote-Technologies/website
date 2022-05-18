@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+@import "./variables";
+@import "./animation";
+
+* {
+  // padding: 0;
+  // margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+  
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.wrapper {
+  padding-inline: 1rem;
+  max-width: 1440px;
+  margin-inline: auto;
+
+  @media (min-width: 1024px) {
+    padding-inline: 80px;
+  }
+
+  @media (min-width: 1380px) {
+    padding-inline: 133px;
+    // margin: 0 133px;
+  }
+
+  @media (min-width: 1600px) {
+    padding-inline: 1rem;
+  }
+}
+
+.textcard {
+  &_header {
+    font-family: 'NeueHelvetica';
+    font-weight: bold;
+    line-height: 98%;
+    color: $header-text-color;
+  }
+  &_body {
+    font-weight: normal;
+    line-height: 170.5%;
+    color: $body-text-color;
+  }
+  &_subheader {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 162.5%;
+    letter-spacing: 0.305em;
+    color: $body-text-color;
+    margin-bottom: 23px;
+  }
+  &_preamble {
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 231%;
+    color: $body-text-color;
+  }
+}
+.page-header {
+  font-weight: bold;
+  font-size: 52.3502px;
+  line-height: 98%;
+  letter-spacing: -0.015em;
+  color: #03060b;
+}
