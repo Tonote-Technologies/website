@@ -16,7 +16,7 @@
           Notarise a Document
         </t-button>
         <t-button theme="outline" size="md" width="186px" @click="signIn()">
-          Get an Affidavit
+          Get an Affidavi
         </t-button>
       </template>
     </hero-banner>
