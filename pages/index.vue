@@ -2,7 +2,7 @@
   <main class="mb-[57px] lg:mb-[110.01px]">
     <hero-banner
       heading="Sign and Notarise important documents online now"
-      sub-heading="Do you need a certified true copy of a document, a sworn affidavit or a credible witness for an agreement?"
+      sub-heading="Do you need a certified true copy of a document, a sworn affidavit or a credible witness for an agreement?  Click to connect with a notary public now."
       header-class="lg:w-[506px] lg:text-[45px]"
       illustration="signature.gif"
     >
@@ -72,10 +72,9 @@
           footer-class="mb-14"
         >
           <p class="textcard_body">
-            If you’ve ever had to notarise a document or get an affidavit for
-            personal or business use then our basic plan is for you. At no
-            recurring cost, you can have access to all nationally certified
-            notaries public on our platform.
+            Electronically sign, notarise and share essential documents with
+            third parties, from anywhere, at any time. The basic plan is
+            absolutely free and great for personal use.
           </p>
           <template #footer>
             <div class="flex">
@@ -88,7 +87,7 @@
                 }"
                 @click="signUp()"
               >
-                Start Free
+                Try Free
               </t-button>
 
               <nuxt-link to="/solutions">
@@ -111,7 +110,7 @@
         <ListItem
           icon="clock.svg"
           :icon-style="{ width: '36.8px', height: '34.5px' }"
-          item="Our notaries public are available for virtual sessions between 9am and 6pm daily."
+          item="Our notary publics are available for virtual sessions between 9am and 9pm daily."
         />
       </div>
       <div class="w-auto lg:w-[850px] 2xl:w-[905px] mt-[20px] lg:mt-0">
@@ -327,14 +326,14 @@ import mainMixin from '@/mixins/index'
 export default {
   name: 'IndexPage',
   mixins: [mainMixin],
-  data () {
+  data() {
     return {
       activeTab: 'For Teams',
-      component: 'for-teams'
+      component: 'for-teams',
     }
   },
-  mounted () {
-    function reveal () {
+  mounted() {
+    function reveal() {
       const reveals = document.querySelectorAll('.anime-section')
 
       for (let i = 0; i < reveals.length; i++) {
@@ -351,7 +350,7 @@ export default {
     }
 
     window.addEventListener('scroll', reveal)
-  }
+  },
 }
 </script>
 <style lang="scss" scoped>
