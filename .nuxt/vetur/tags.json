@@ -47,11 +47,11 @@
   "ListItem": {
     "description": "Auto imported from components/ListItem/ListItem.vue"
   },
-  "PreHeader": {
-    "description": "Auto imported from components/PreHeader/PreHeader.vue"
-  },
   "ProfileCard": {
     "description": "Auto imported from components/ProfileCard/ProfileCard.vue"
+  },
+  "PreHeader": {
+    "description": "Auto imported from components/PreHeader/PreHeader.vue"
   },
   "Roles": {
     "description": "Auto imported from components/Roles/Roles.vue"
@@ -65,16 +65,16 @@
   "TButtonButton": {
     "description": "Auto imported from components/TButton/button.js"
   },
-  "TabToggle": {
-    "description": "Auto imported from components/TabToggle/TabToggle.vue"
-  },
-  "Tag": {
-    "description": "Auto imported from components/Tag/Tag.vue"
-  },
   "TermsStructure": {
     "description": "Auto imported from components/TermsStructure/TermsStructure.vue"
   },
   "TextCard": {
     "description": "Auto imported from components/TextCard/TextCard.vue"
+  },
+  "TabToggle": {
+    "description": "Auto imported from components/TabToggle/TabToggle.vue"
+  },
+  "Tag": {
+    "description": "Auto imported from components/Tag/Tag.vue"
   }
 }

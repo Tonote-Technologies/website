@@ -129,32 +129,6 @@
         </div>
 
         <!-- Roles -->
-        <div>
-          <h3
-            class="mx-auto text-header-color font-bold text-[23.5135px] text-center w-auto max-w-[292px] md:max-w-none lg:w-[482px] mb-[34px] lg:mb-[63px] mt-[68px] lg:mt-[100px] font-NeueHelvetica"
-          >
-            We are currently looking for candidates to fill these roles:
-          </h3>
-          <div class="mx-auto lg:w-[991px]">
-            <div class="mb-[12px] lg:mb-[20px]">
-              <Tag>Design</Tag>
-            </div>
-            <div>
-              <Roles job-title="Illustrator" location="Remote, OK" />
-              <Roles job-title="UI Designer" location="Lagos, Nigeria" />
-            </div>
-            <div class="mb-[12px] lg:mb-[20px]">
-              <Tag color="#2FA36B" background-color="#E8FFE8">
-                Engineering
-              </Tag>
-            </div>
-            <div>
-              <Roles job-title="Front End Developer" location="Accra, Ghana" />
-              <Roles job-title="Back End Developer" location="Nairobi, Kenya" />
-              <Roles job-title="Android Developer" location="Remote, OK" />
-            </div>
-          </div>
-        </div>
       </div>
     </main>
   </div>
@@ -165,12 +139,12 @@ import { values, workBenefits } from './data.js'
 
 export default {
   name: 'CareersPage',
-  data () {
+  data() {
     return {
       values,
-      workBenefits
+      workBenefits,
     }
-  }
+  },
 }
 </script>
 

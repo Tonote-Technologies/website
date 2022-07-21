@@ -1,7 +1,7 @@
 <template>
   <main class="mb-[57px] lg:mb-[110.01px]">
     <hero-banner
-      heading="Sign and Notarise important documents online now"
+      heading="Sign and Notarise important documents online now!"
       sub-heading="Do you need a certified true copy of a document, a sworn affidavit or a credible witness for an agreement?  Click to connect with a notary public now."
       header-class="lg:w-[506px] lg:text-[45px]"
       illustration="signature.gif"
@@ -16,7 +16,7 @@
           Notarise a Document
         </t-button>
         <t-button theme="outline" size="md" width="186px" @click="signIn()">
-          Get an Affidavit
+          Get an Affidavit Hello
         </t-button>
       </template>
     </hero-banner>
@@ -159,11 +159,11 @@
                 for teams
               </p>
               <p class="textcard_body">
-                Businesses sign and notarise documents every day. We understand
-                team dynamics and how roles and responsibilities are shared.
-                This is why you can set permissions and restrictions, selecting
-                which team members are able to prepare, review, sign, notarise
-                and share essential documentation.
+                When it comes to documentation management, we understand team
+                dynamics and how roles and responsibilities are shared. This is
+                why you can set permissions and restrictions, selecting which
+                team members are able to prepare, review, e-sign, notarise and
+                share essential documentation.
               </p>
             </div>
             <template #footer>
@@ -213,11 +213,12 @@
                 process
               </p>
               <p class="textcard_body">
-                Are you a business that has customers who need to notarise
-                documents from time to time? We have automated the notary
-                process so that your customers will now be able to validate
-                essential documents and swear affidavits in record time. Closing
-                transactions have never been this easy.
+                Are you a business that has customers who need to sign, certify
+                and submit documents from time to time? We have automated this
+                process so that you and your customers will now be able to
+                collaboratively sign & certify essential documents or swear
+                affidavits virtually and in record time. Closing transactions
+                has never been this easy.
               </p>
             </div>
             <template #footer>
@@ -277,10 +278,13 @@
             }"
           >
             <p class="textcard_body">
-              We are building a community that recognises the notary public
-              service and encourages financial liberation through this service.
-              This means we appreciate the work that you do and the more you
-              notarise on our platform, the more you earn.
+              We have created a free-market place that will give you access to a
+              wide range of customers worldwide, who are in need of an e-notary
+              public, for business or personal purposes. <br /><br />
+
+              This means that in your free time, you can notarise client’s
+              documents from anywhere using a combination of our e-signature,
+              digital seal and audio-visual conferencing features.
             </p>
             <template #footer>
               <div class="flex">

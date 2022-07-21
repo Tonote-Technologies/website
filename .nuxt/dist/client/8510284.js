@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{504:function(o,n,t){"use strict";t.r(n),n.default="./FooterList"}}]);

@@ -2,16 +2,12 @@
   <div>
     <main class="mb-[137px]">
       <hero-banner
-        heading="At ToNote, we are making it easy for businesses and individuals to
-              sign documents, swear affidavits or certify essential documents,
-              virtually."
+        heading="Our vision at ToNote is to make trust easy in the digital world."
         header-class="lg:w-[768px]"
         body-class="lg:w-[743px] lg:pr-2"
-        sub-heading="Our vision is to make trust easy for 456 million transacting
-              Africans. One of the key figureheads in fostering trust between
-              parties is a Notary Public. Our market place feature connects
-              customers with nationally certified notaries public, who can
-              notarise essential documents, 100% online and in real-time."
+        sub-heading="Our solutions are pioneering the BIG SHIFT from the traditional to digital trust management. With our first product, businesses and individuals can securely sign and notarise documents or get affidavits, 100% online and in real-time.
+Our market place feature connects customers with nationally certified notaries public, who can certify essential documents.
+We secure all documents and personal information using encryption software that converts the information into code that only the customer can read. "
         :banner-alert="false"
         hero-left-class="lg:translate-y-[20px] 2xl:ml-[0px]"
       >
@@ -70,7 +66,7 @@
 <script>
 export default {
   name: 'AboutUs',
-  data () {
+  data() {
     return {
       teams: [
         {
@@ -78,32 +74,34 @@ export default {
           prefname: 'Fikayo',
           role: 'CEO and Co-Founder',
           image: 'Fikayo.jpeg',
-          linkedin: 'https://www.linkedin.com/in/fikayo-durosinmi-etti-7aa232101/'
+          linkedin:
+            'https://www.linkedin.com/in/fikayo-durosinmi-etti-7aa232101/',
+        },
+        {
+          name: 'Shafi Akinropo',
+          prefname: 'Shafi',
+          role: 'Lead Engineer',
+          image: 'Shafi.jpeg',
+          linkedin: 'https://www.linkedin.com/in/akin-shafi-90b3b4a4/',
         },
         {
           name: 'Daniel Etim Inyang',
           prefname: 'Daniel',
           role: 'Head of Revenue & Growth',
           image: 'Daniel.jpeg',
-          linkedin: 'https://www.linkedin.com/in/danielinyang'
+          linkedin: 'https://www.linkedin.com/in/danielinyang',
         },
-        {
-          name: 'Akin Shafi',
-          prefname: 'Shafi',
-          role: 'Full-Stack Developer',
-          image: 'Shafi.jpeg',
-          linkedin: 'https://www.linkedin.com/in/akin-shafi-90b3b4a4/'
-        },
+
         {
           name: 'Laide Misola Enabulele',
           prefname: 'Laide',
           role: 'Lead, Community & Compliance',
           image: 'Laide.jpeg',
-          linkedin: 'https://www.linkedin.com/in/laide-misola-e-4a181994/'
-        }
-      ]
+          linkedin: 'https://www.linkedin.com/in/laide-misola-e-4a181994/',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 

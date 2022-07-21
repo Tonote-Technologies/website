@@ -7,7 +7,7 @@
       </div>
 
       <div class="flex flex-col items-center">
-        <h3 class="c-signupCard__price">N3500</h3>
+        <h3 class="c-signupCard__price">N4000</h3>
         <p class="c-signupCard__service">Per Affidavit</p>
       </div>
     </div>
@@ -28,7 +28,7 @@ import mainMixin from '@/mixins/index'
 
 export default {
   name: 'SignupCard',
-  mixins: [mainMixin]
+  mixins: [mainMixin],
 }
 </script>
 

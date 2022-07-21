@@ -10,14 +10,14 @@
           >
             Pricing
           </h1>
-          <p
+          <!-- <p
             class="text-center text-content-color text-[11.6603px] lg:text-[18px] leading-[170.5%] lg:leading-[193.5%]"
           >
             Signing up with ToNote makes notarising 55% cheaper and 26x faster
             than traditional means. You get access to a wide range of certified
             notaries public for virtual sessions and access to a wide range of
             documentation management features.
-          </p>
+          </p> -->
           <div class="">
             <tab-toggle
               :toggle="toggleActiveTab"
@@ -44,7 +44,7 @@
                   :src="require('~/assets/images/' + plan.image)"
                   class="max-w-none w-full h-full"
                   alt="plan image"
-                >
+                />
               </div>
               <div class="mt-[28.48px]">
                 <text-card
@@ -132,12 +132,14 @@
                   v-if="more === plan.name"
                   class="text-[#16110D] text-[14px] leading-[170.5%] underline italic cursor-pointer"
                   @click="more = ''"
-                >See Less</span>
+                  >See Less</span
+                >
                 <span
                   v-else
                   class="text-[#16110D] text-[14px] leading-[170.5%] underline italic cursor-pointer"
                   @click="more = plan.name"
-                >See More</span>
+                  >See More</span
+                >
               </div>
             </div>
           </div>
@@ -154,17 +156,17 @@ import mainMixin from '@/mixins/index'
 export default {
   name: 'PricesPage',
   mixins: [mainMixin],
-  data () {
+  data() {
     return {
       activeTab: 'Monthly',
       plans,
-      more: ''
+      more: '',
     }
   },
   methods: {
-    toggleActiveTab (tab) {
+    toggleActiveTab(tab) {
       this.activeTab = tab
-    }
-  }
+    },
+  },
 }
 </script>

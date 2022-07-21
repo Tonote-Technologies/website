@@ -146,24 +146,27 @@ export default {
   name: 'ContactSalesPage',
   components: {
     ValidationObserver,
-    Loader
+    Loader,
   },
-  data () {
+  data() {
     return {
       form: {},
       loading: false,
       buttonText: 'Submit',
       countries,
-      errorMsg: ''
+      errorMsg: '',
     }
   },
   methods: {
-    async onSubmit () {
+    async onSubmit() {
       this.errorMsg = ''
       const self = this
       this.loading = true
       try {
-        const { status, code } = await this.$axios.$post('api/v1/user/profile/contact-sales', this.form)
+        const { status, code } = await this.$axios.$post(
+          'api/v1/user/profile/contact-sales',
+          this.form
+        )
         if (status === 'success' && code === 200) {
           this.$refs.form.reset()
           this.form = {}
@@ -178,7 +181,7 @@ export default {
           self.buttonText = 'Submit'
         }, 3000)
       }
-    }
-  }
+    },
+  },
 }
 </script>

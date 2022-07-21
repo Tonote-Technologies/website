@@ -11,20 +11,31 @@ export const plans = [
     },
     prices: {
       session: 'N8,000',
-      affidavit: 'N3,500'
+      affidavit: 'N4,000'
     },
     options: [
-      'Sign up for free',
-      'Create custom e-signatures',
-      'Get affidavits and notarise <br/> documents online in minutes! No <br/> templates required',
-      'E-sign and share unlimited amount of <br/> notarised documents with third <br/> parties',
-      'E-sign and share up to 3 documents <br/> per month with third parties',
-      'No more paper, printing or <br/> transportation',
-      'Track affidavit and notarised <br/> documentation history',
-      'E-notarisation is 7* faster than traditional notarisation at 65% of the overall cost',
+      // 'Sign up for free',
+      // 'Create custom e-signatures',
+      // 'Get affidavits and notarise <br/> documents online in minutes! No <br/> templates required',
+      // 'E-sign and share unlimited amount of <br/> notarised documents with third <br/> parties',
+      // 'E-sign and share up to 3 documents <br/> per month with third parties',
+      // 'No more paper, printing or <br/> transportation',
+      // 'Track affidavit and notarised <br/> documentation history',
+      // 'E-notarisation is 7* faster than traditional notarisation at 65% of the overall cost',
+      // 'Access to online tutorials on how to use the platform',
+      // 'Access to customer support via email and chat',
+      // '24/7 web access'
+
+      'No subscription fee',
+      'Digitise and store your secure e - signature',
+      'Get affidavits and notarise documents online in minutes! No templates required',
+      'Securely sign and share unlimited number of notarised documents with third parties',
+      'Securely sign and share 10 documents monthly at no cost',
+      'No more paper, printing or transportation',
+      'Audit trail for documentation management',
       'Access to online tutorials on how to use the platform',
       'Access to customer support via email and chat',
-      '24/7 web access'
+      '24 / 7 web access ',
     ],
     btnText: 'Sign Up',
     to: null
@@ -41,26 +52,36 @@ export const plans = [
     },
     prices: {
       session: 'N8,000',
-      affidavit: 'N3,500'
+      affidavit: 'N4,000'
     },
     options: [
-      'Automated onboarding process',
-      'Personalised platform branding',
+      // 'Automated onboarding process',
+      // 'Personalised platform branding',
+      // 'Bank Grade Security',
+      // 'E-sign and share up to 50 documents with your customers monthly',
+      // 'Ability for clients to get affidavits and <br/> notarise documents online in <br/> minutes! No templates required',
+      // 'Set permission levels for signers',
+      // 'Sign documents collaboratively',
+      // 'Automate approvals and sign offs',
+      // 'Enable seamless documentation management processes',
+      // 'Quicker transaction closings',
+      // 'Transaction history and audit trails',
+      // 'E-notarisation is 7* faster than traditional notarisation at 65% of the overall cost',
+      // 'Access to online tutorials on how to use the platform',
+      // 'Access to customer support via telephone, email and chat',
+      // 'Access to dedicated customer success manager',
+      // '24/7 web access',
+      // 'API integration'
+
       'Bank Grade Security',
-      'E-sign and share up to 50 documents with your customers monthly',
-      'Ability for clients to get affidavits and <br/> notarise documents online in <br/> minutes! No templates required',
-      'Set permission levels for signers',
+      'E - sign and share up to 40 documents per team member, monthly',
+      'Collaborate with up to 10 team members',
+      'Set permissions for signers',
       'Sign documents collaboratively',
       'Automate approvals and sign offs',
       'Enable seamless documentation management processes',
       'Quicker transaction closings',
-      'Transaction history and audit trails',
-      'E-notarisation is 7* faster than traditional notarisation at 65% of the overall cost',
-      'Access to online tutorials on how to use the platform',
-      'Access to customer support via telephone, email and chat',
-      'Access to dedicated customer success manager',
-      '24/7 web access',
-      'API integration'
+      '24 / 7 web access ',
     ],
     btnText: 'Go Pro Now',
     to: null
@@ -77,24 +98,30 @@ export const plans = [
     },
     prices: {
       session: 'N8,000',
-      affidavit: 'N3,500'
+      affidavit: 'N4,000'
     },
     options: [
-      'Hands on onboarding support',
-      'Custom plans tailored to your business notary needs',
-      'Personalised platform branding ',
-      'Bank Grade Security',
-      'E-sign and share unlimited number of documents with your customers monthly',
-      'Ability for clients to get affidavits and notarise documents online in minutes! No templates required',
-      'Enable seamless documentation management processes between your business and Clients',
-      'Quicker transaction closings',
-      'Transaction history and audit trails',
-      'E-notarisation is 7* faster than traditional notarisation at 65% of the overall cost',
-      'Access to online tutorials on how to use the platform',
-      'Access to customer support via telephone, email and chat',
+      // 'Hands on onboarding support',
+      // 'Custom plans tailored to your business notary needs',
+      // 'Personalised platform branding ',
+      // 'Bank Grade Security',
+      // 'E-sign and share unlimited number of documents with your customers monthly',
+      // 'Ability for clients to get affidavits and notarise documents online in minutes! No templates required',
+      // 'Enable seamless documentation management processes between your business and Clients',
+      // 'Quicker transaction closings',
+      // 'Transaction history and audit trails',
+      // 'E-notarisation is 7* faster than traditional notarisation at 65% of the overall cost',
+      // 'Access to online tutorials on how to use the platform',
+      // 'Access to customer support via telephone, email and chat',
+      // 'Access to dedicated customer success manager',
+      // '24/7 web access',
+      // 'API integration'
+
+      'Securely sign and share up to 100 documents per team member monthly',
+      'Collaborate with up to 100 team members monthly',
+      'Seamless documentation management processes between your business and Clients',
       'Access to dedicated customer success manager',
-      '24/7 web access',
-      'API integration'
+      'API coming soon',
     ],
     btnText: 'Talk To Sales',
     to: '/contact-sales'

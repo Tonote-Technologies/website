@@ -6,11 +6,13 @@ export default {
     ])
   },
   methods: {
-    signIn () {
-      window.open(this.authURL('signin'))
+    signIn() {
+      // window.open(this.authURL('signin'))
+      window.open('https://gettonote-users.netlify.app/')
     },
-    signUp () {
-      window.open(this.authURL('signup'))
+    signUp() {
+      // window.open(this.authURL('signup'))
+      window.open('https://gettonote-users.netlify.app/register')
     }
   }
 }

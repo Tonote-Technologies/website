@@ -3,7 +3,7 @@
     <main class="mb-[84px] lg:mb-[66px]">
       <hero-banner
         heading="Our Solutions"
-        sub-heading="Our goal is to create a world where every document shared is secure and can be trusted. The first step towards this is to help people and teams sign, notarise and collaborate on documents virtually"
+        sub-heading="Our goal is to make trust easy for people transacting in today’s digital world. The first step towards this is to help you, your teams and your business sign, notarise and collaborate on documents virtually."
         illustration="unlock.gif"
       >
         <template #bannerbtn>
@@ -51,9 +51,33 @@
               <p class="textcard_body">
                 If you have ever had to notarise a document or get an affidavit
                 for personal or business use then our basic plan is for you. At
-                no recurring cost, you can have access to all nationally
-                certified notaries public on our platform.
+                no recurring cost, you have access to nationally certified
+                notaries public on our platform. Simply sign up, upload your
+                document (it’s okay if you don’t have one, our notaries will
+                assist), confirm your identity, and just like that you will be
+                in the virtual presence of a notary public who will certify your
+                document or issue your affidavit in minutes. No courts, no
+                queues.
               </p>
+              <!-- <div>
+                <h6>With the ToNote basic plan you can:</h6>
+                <ol type="1" style="padding-left: 30px">
+                  <li>- Securely e-sign and share documents</li>
+                  <li>
+                    - Get certified true copies of essential documents such as
+                    your passport, birth certificate or educational certificate.
+                  </li>
+                  <li>
+                    - Virtually Notarise transaction closing documents that
+                    require a notary public as a witness.
+                  </li>
+                  <li>
+                    - Virtually swear an unlimited range of affidavits and
+                  </li>
+                </ol>
+                <div>Much more…</div>
+              </div> -->
+              <!-- <h2>Benefits</h2> -->
               <template #footer>
                 <div class="mb-[11px]">
                   <list-item
@@ -176,7 +200,7 @@
                 <br /><br />
                 We understand team dynamics and how roles and responsibilities
                 are shared. <br /><br />
-                This is why you can set permissionsand restrictions, selecting
+                This is why you can set permissions and restrictions, selecting
                 which team members are able to prepare, review, sign, notarise
                 and share essential documents.
               </p>
@@ -335,23 +359,23 @@ import {
   benefitsGroupB,
   benefitsGroupC,
   benefitsGroupD,
-  benefitsGroupE
+  benefitsGroupE,
 } from './data.js'
 import mainMixin from '@/mixins/index'
 
 export default {
   name: 'SolutionsPage',
   mixins: [mainMixin],
-  data () {
+  data() {
     return {
       basicFeatures,
       benefitsGroupA,
       benefitsGroupB,
       benefitsGroupC,
       benefitsGroupD,
-      benefitsGroupE
+      benefitsGroupE,
     }
-  }
+  },
 }
 </script>
 

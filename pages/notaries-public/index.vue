@@ -1,8 +1,9 @@
 <template>
   <main class="mb-[110.01px]">
     <hero-banner
-      heading="ToNote for Notaries Public"
-      sub-heading="We are building a community that recognises the notary public service and encourages financial liberation through this service."
+      heading="ToNote for Notaries"
+      sub-heading="We are building a community that recognises the notary public service and encourages
+      financial liberation through this service."
       illustration="stamp.gif"
     >
       <template #bannerbtn>
@@ -31,12 +32,48 @@
             }"
           >
             <p class="textcard_body">
-              This means we appreciate the work that you do and the more you
+              <!-- This means we appreciate the work that you do and the more you
               notarise on our platform, the more you earn. To aid your efforts,
               we have created a free-market place that will give you access to a
               wide range of customers worldwide, who are in need of a notary
-              public, for business or personal purposes.
+              public, for business or personal purposes. -->
+
+              We are building a community that recognises the notary public
+              service and encourages financial liberation through this service.
+              This means we appreciate the work that you do and the more you
+              notarise on our platform, the more you earn. <br /><br />
+
+              <h6>Seamlessly create and store electronic signatures, stamps and
+              seals</h6> <br>
+
+              You can notarise client's documents from anywhere using a
+              combination of our e-signature, digital seal and audio-visual
+              conferencing features. Not too tech savvy? Don't worry, our online
+              tutorial will teach you everything you need to know about how to
+              use our platform in a few short videos.
             </p>
+          <div>
+            <h6>Benefits</h6>
+            <ol type="1" style="padding-left: 30px">
+              <li>1. Free and guided onboarding and training</li>
+              <li>2. Access to a market place full of customers</li>
+              <li>3. Digitise signatures, stamps and seals</li>
+              <li>4. Automated Identity verification</li>
+              <li>5. Notarise documents virtually & in real time</li>
+              <li>6. Increase notary income</li>
+              <li>7. Access to audit trail of notarised documents</li>
+              <li>8. 24/7 access via all devices</li>
+              <li>9. Bank grade security</li>
+            </ol>
+            <div style="margin-top: 20px">
+              <template>
+                <t-button size="md" width="186px" @click="signUp()">
+                  Get Started
+                </t-button>
+              </template>
+            </div>
+          </div>
+
           </text-card>
         </div>
         <div class="w-auto mt-[63px] lg:mt-0">
@@ -155,12 +192,12 @@ import mainMixin from '@/mixins/index'
 export default {
   name: 'NotariesPublic',
   mixins: [mainMixin],
-  data () {
+  data() {
     return {
       features,
-      getstarted
+      getstarted,
     }
-  }
+  },
 }
 </script>
 
