@@ -47,21 +47,12 @@
   "ListItem": {
     "description": "Auto imported from components/ListItem/ListItem.vue"
   },
-<<<<<<< HEAD
-  "ProfileCard": {
-    "description": "Auto imported from components/ProfileCard/ProfileCard.vue"
-  },
-  "PreHeader": {
-    "description": "Auto imported from components/PreHeader/PreHeader.vue"
-  },
-=======
   "PreHeader": {
     "description": "Auto imported from components/PreHeader/PreHeader.vue"
   },
   "ProfileCard": {
     "description": "Auto imported from components/ProfileCard/ProfileCard.vue"
   },
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
   "Roles": {
     "description": "Auto imported from components/Roles/Roles.vue"
   },
@@ -74,28 +65,16 @@
   "TButtonButton": {
     "description": "Auto imported from components/TButton/button.js"
   },
-<<<<<<< HEAD
-  "TermsStructure": {
-    "description": "Auto imported from components/TermsStructure/TermsStructure.vue"
-  },
-  "TextCard": {
-    "description": "Auto imported from components/TextCard/TextCard.vue"
-  },
-=======
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
   "TabToggle": {
     "description": "Auto imported from components/TabToggle/TabToggle.vue"
   },
   "Tag": {
     "description": "Auto imported from components/Tag/Tag.vue"
-<<<<<<< HEAD
-=======
   },
   "TermsStructure": {
     "description": "Auto imported from components/TermsStructure/TermsStructure.vue"
   },
   "TextCard": {
     "description": "Auto imported from components/TextCard/TextCard.vue"
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
   }
 }

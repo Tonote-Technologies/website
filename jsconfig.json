@@ -8,9 +8,5 @@
       "@@/*": ["./*"]
     }
   },
-<<<<<<< HEAD
-  "exclude": ["node_modules", ".nuxt-old", "dist"]
-=======
-  "exclude": ["node_modules", ".nuxt", "dist"] 
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
+  "exclude": ["node_modules"]
 }

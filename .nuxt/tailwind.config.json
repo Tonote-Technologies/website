@@ -3211,21 +3211,12 @@
   "plugins": [],
   "purge": {
     "content": [
-<<<<<<< HEAD
       "/Users/macbook/Desktop/tonote-website-develop/website/components/**/*.{vue,js,ts}",
       "/Users/macbook/Desktop/tonote-website-develop/website/layouts/**/*.vue",
       "/Users/macbook/Desktop/tonote-website-develop/website/pages/**/*.vue",
       "/Users/macbook/Desktop/tonote-website-develop/website/plugins/**/*.{js,ts}",
       "/Users/macbook/Desktop/tonote-website-develop/website/nuxt.config.js",
       "/Users/macbook/Desktop/tonote-website-develop/website/nuxt.config.ts",
-=======
-      "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/components/**/*.{vue,js,ts}",
-      "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/layouts/**/*.vue",
-      "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/**/*.vue",
-      "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/plugins/**/*.{js,ts}",
-      "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/nuxt.config.js",
-      "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/nuxt.config.ts",
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
       "components/**/*.{vue,js}",
       "layouts/**/*.vue",
       "pages/**/*.vue",
@@ -3234,11 +3225,7 @@
     ]
   },
   "mode": "jit",
-<<<<<<< HEAD
-  "_hash": "1658375023244",
-=======
-  "_hash": "1655398593763",
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
+  "_hash": "1658384493579",
   "presets": [],
   "darkMode": false,
   "variantOrder": [

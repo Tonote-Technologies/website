@@ -14,28 +14,16 @@ export { default as Header } from '../../components/Header/Header.vue'
 export { default as HeroBanner } from '../../components/HeroBanner/HeroBanner.vue'
 export { default as Hero } from '../../components/HeroBanner/hero.js'
 export { default as ListItem } from '../../components/ListItem/ListItem.vue'
-<<<<<<< HEAD
-export { default as ProfileCard } from '../../components/ProfileCard/ProfileCard.vue'
-export { default as PreHeader } from '../../components/PreHeader/PreHeader.vue'
-=======
 export { default as PreHeader } from '../../components/PreHeader/PreHeader.vue'
 export { default as ProfileCard } from '../../components/ProfileCard/ProfileCard.vue'
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
 export { default as Roles } from '../../components/Roles/Roles.vue'
 export { default as SignupCard } from '../../components/SignupCard/SignupCard.vue'
 export { default as TButton } from '../../components/TButton/TButton.vue'
 export { default as TButtonButton } from '../../components/TButton/button.js'
-<<<<<<< HEAD
-export { default as TermsStructure } from '../../components/TermsStructure/TermsStructure.vue'
-export { default as TextCard } from '../../components/TextCard/TextCard.vue'
-export { default as TabToggle } from '../../components/TabToggle/TabToggle.vue'
-export { default as Tag } from '../../components/Tag/Tag.vue'
-=======
 export { default as TabToggle } from '../../components/TabToggle/TabToggle.vue'
 export { default as Tag } from '../../components/Tag/Tag.vue'
 export { default as TermsStructure } from '../../components/TermsStructure/TermsStructure.vue'
 export { default as TextCard } from '../../components/TextCard/TextCard.vue'
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

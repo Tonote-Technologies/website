@@ -13,17 +13,10 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-<<<<<<< HEAD
 import nuxt_plugin_plugin_20316617 from 'nuxt_plugin_plugin_20316617' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_axios_1c62bbad from 'nuxt_plugin_axios_1c62bbad' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_workbox_1072f989 from 'nuxt_plugin_workbox_1072f989' // Source: ./workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_2862a79c from 'nuxt_plugin_metaplugin_2862a79c' // Source: ./pwa/meta.plugin.js (mode: 'all')
-=======
-import nuxt_plugin_plugin_2a0c4e77 from 'nuxt_plugin_plugin_2a0c4e77' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_axios_6c0f340d from 'nuxt_plugin_axios_6c0f340d' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_workbox_26e2d9e9 from 'nuxt_plugin_workbox_26e2d9e9' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_4ac7b008 from 'nuxt_plugin_metaplugin_4ac7b008' // Source: ./pwa/meta.plugin.js (mode: 'all')
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
 import nuxt_plugin_veevalidate_1a0c1998 from 'nuxt_plugin_veevalidate_1a0c1998' // Source: ../plugins/vee-validate.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -92,7 +85,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Tonote-Website","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"Tonote-Website","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"tonote-website"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"tonote-website"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"tonote-website"},{"hid":"og:description","name":"og:description","property":"og:description","content":"## Build Setup"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"hid":"shortcut-icon","rel":"shortcut icon","href":"\u002Ffavicon.ico"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.1b3d56be.json","hid":"manifest"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
     store,
     router,
@@ -221,7 +214,6 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-<<<<<<< HEAD
   if (typeof nuxt_plugin_plugin_20316617 === 'function') {
     await nuxt_plugin_plugin_20316617(app.context, inject)
   }
@@ -236,22 +228,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_metaplugin_2862a79c === 'function') {
     await nuxt_plugin_metaplugin_2862a79c(app.context, inject)
-=======
-  if (typeof nuxt_plugin_plugin_2a0c4e77 === 'function') {
-    await nuxt_plugin_plugin_2a0c4e77(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_axios_6c0f340d === 'function') {
-    await nuxt_plugin_axios_6c0f340d(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_workbox_26e2d9e9 === 'function') {
-    await nuxt_plugin_workbox_26e2d9e9(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_metaplugin_4ac7b008 === 'function') {
-    await nuxt_plugin_metaplugin_4ac7b008(app.context, inject)
->>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
   }
 
   if (typeof nuxt_plugin_veevalidate_1a0c1998 === 'function') {
