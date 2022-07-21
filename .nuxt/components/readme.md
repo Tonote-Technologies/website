@@ -22,13 +22,25 @@ You can directly use them in pages and other components without the need to impo
 - `<HeroBanner>` | `<hero-banner>` (components/HeroBanner/HeroBanner.vue)
 - `<Hero>` | `<hero>` (components/HeroBanner/hero.js)
 - `<ListItem>` | `<list-item>` (components/ListItem/ListItem.vue)
+<<<<<<< HEAD
 - `<ProfileCard>` | `<profile-card>` (components/ProfileCard/ProfileCard.vue)
 - `<PreHeader>` | `<pre-header>` (components/PreHeader/PreHeader.vue)
+=======
+- `<PreHeader>` | `<pre-header>` (components/PreHeader/PreHeader.vue)
+- `<ProfileCard>` | `<profile-card>` (components/ProfileCard/ProfileCard.vue)
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
 - `<Roles>` | `<roles>` (components/Roles/Roles.vue)
 - `<SignupCard>` | `<signup-card>` (components/SignupCard/SignupCard.vue)
 - `<TButton>` | `<t-button>` (components/TButton/TButton.vue)
 - `<TButtonButton>` | `<t-button-button>` (components/TButton/button.js)
+<<<<<<< HEAD
 - `<TermsStructure>` | `<terms-structure>` (components/TermsStructure/TermsStructure.vue)
 - `<TextCard>` | `<text-card>` (components/TextCard/TextCard.vue)
 - `<TabToggle>` | `<tab-toggle>` (components/TabToggle/TabToggle.vue)
 - `<Tag>` | `<tag>` (components/Tag/Tag.vue)
+=======
+- `<TabToggle>` | `<tab-toggle>` (components/TabToggle/TabToggle.vue)
+- `<Tag>` | `<tag>` (components/Tag/Tag.vue)
+- `<TermsStructure>` | `<terms-structure>` (components/TermsStructure/TermsStructure.vue)
+- `<TextCard>` | `<text-card>` (components/TextCard/TextCard.vue)
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b

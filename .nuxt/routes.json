@@ -2,181 +2,301 @@
   {
     "name": "about",
     "path": "/about",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/about/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/about/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/about/index"
   },
   {
     "name": "careers",
     "path": "/careers",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/careers/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/careers/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/careers/index"
   },
   {
     "name": "contact-sales",
     "path": "/contact-sales",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/contact-sales/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/contact-sales/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/contact-sales/index"
   },
   {
     "name": "cookies",
     "path": "/cookies",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/cookies/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/cookies/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/cookies/index"
   },
   {
     "name": "faq",
     "path": "/faq",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/faq/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/faq/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/faq/index"
   },
   {
     "name": "notaries-public",
     "path": "/notaries-public",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/notaries-public/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/notaries-public/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/notaries-public/index"
   },
   {
     "name": "pricing",
     "path": "/pricing",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/pricing/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/pricing/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/pricing/index"
   },
   {
     "name": "privacy-policy",
     "path": "/privacy-policy",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/privacy-policy/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/privacy-policy/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/privacy-policy/index"
   },
   {
     "name": "solutions",
     "path": "/solutions",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/solutions/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/solutions/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/solutions/index"
   },
   {
     "name": "terms_conditions",
     "path": "/terms_conditions",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/index"
   },
   {
     "name": "careers-data",
     "path": "/careers/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/careers/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/careers/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/careers/data"
   },
   {
     "name": "cookies-data",
     "path": "/cookies/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/cookies/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/cookies/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/cookies/data"
   },
   {
     "name": "faq-data",
     "path": "/faq/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/faq/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/faq/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/faq/data"
   },
   {
     "name": "notaries-public-data",
     "path": "/notaries-public/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/notaries-public/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/notaries-public/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/notaries-public/data"
   },
   {
     "name": "pricing-data",
     "path": "/pricing/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/pricing/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/pricing/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/pricing/data"
   },
   {
     "name": "privacy-policy-data",
     "path": "/privacy-policy/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/privacy-policy/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/privacy-policy/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/privacy-policy/data"
   },
   {
     "name": "solutions-data",
     "path": "/solutions/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/solutions/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/solutions/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/solutions/data"
   },
   {
     "name": "terms_conditions-data",
     "path": "/terms_conditions/data",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/data.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/data.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/data"
   },
   {
     "name": "terms_conditions-DataProtection",
     "path": "/terms_conditions/DataProtection",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/DataProtection.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/DataProtection.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/DataProtection"
   },
   {
     "name": "terms_conditions-Definition",
     "path": "/terms_conditions/Definition",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/Definition.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/Definition.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/Definition"
   },
   {
     "name": "terms_conditions-FeesTable",
     "path": "/terms_conditions/FeesTable",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/FeesTable.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/FeesTable.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/FeesTable"
   },
   {
     "name": "terms_conditions-format",
     "path": "/terms_conditions/format",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/format.js",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/format.js",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/format"
   },
   {
     "name": "terms_conditions-InPropRights",
     "path": "/terms_conditions/InPropRights",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/InPropRights.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/InPropRights.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/InPropRights"
   },
   {
     "name": "terms_conditions-LimitationLiability",
     "path": "/terms_conditions/LimitationLiability",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/LimitationLiability.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/LimitationLiability.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/LimitationLiability"
   },
   {
     "name": "terms_conditions-ObNotary",
     "path": "/terms_conditions/ObNotary",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/ObNotary.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/ObNotary.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/ObNotary"
   },
   {
     "name": "terms_conditions-ProbUses",
     "path": "/terms_conditions/ProbUses",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/ProbUses.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/ProbUses.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/ProbUses"
   },
   {
     "name": "terms_conditions-TAbout",
     "path": "/terms_conditions/TAbout",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/TAbout.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/TAbout.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/TAbout"
   },
   {
     "name": "terms_conditions-TermsContents",
     "path": "/terms_conditions/TermsContents",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/TermsContents.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/TermsContents.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/TermsContents"
   },
   {
     "name": "terms_conditions-UserAccount",
     "path": "/terms_conditions/UserAccount",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/terms_conditions/UserAccount.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/terms_conditions/UserAccount.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/terms_conditions/UserAccount"
   },
   {
     "name": "index",
     "path": "/",
+<<<<<<< HEAD
     "component": "/Users/macbook/Desktop/tonote-website-develop/website/pages/index.vue",
+=======
+    "component": "/Users/macbook/Desktop/tonote-website-develop/website/htdocs/website/pages/index.vue",
+>>>>>>> 591d7e544404df36ac7c45e6a7179b52cf58560b
     "chunkName": "pages/index"
   }
 ]
